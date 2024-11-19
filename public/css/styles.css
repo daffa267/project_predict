@@ -195,25 +195,8 @@ body {
     text-decoration: none;
 }
 
-
-.blue {
-    background-color: #17a2b8;
-}
-
-.blue svg{
-    color: #fff;
-}
-
-.green {
-    background-color: #28a745;
-}
-
-.green svg{
-    color: #fff;
-}
-
 .red {
-    background-color: #dc3545;
+    background-color: #00c427;
 }
 
 .red svg{
@@ -221,18 +204,10 @@ body {
 }
 
 .purple {
-    background-color: #6f42c1;
+    background-color: #3f88fd;
 }
 
 .purple svg{
-    color: #fff;
-}
-
-.dark {
-    background-color: #343a40;
-}
-
-.dark svg{
     color: #fff;
 }
 
