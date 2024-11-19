@@ -9,6 +9,11 @@ class Move extends BaseController
         return view('home');
     }
 
+    public function sell(): string
+    {
+        return view('sell');
+    }
+
     public function hasil(): string
     {
         return view('hasil');

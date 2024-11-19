@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class="login-container">
-        <h2><img src="https://img.icons8.com/windows/32/ffffff/windows-10.png" alt="logo" /> PREDICT 1.0</h2>
+        <h2><img src="https://img.icons8.com/windows/32/ffffff/windows-10.png" alt="logo" /> JAWA DILARANG LOGIN</h2>
         <form action="#" method="POST">
             <div style="position: relative;">
                 <span class="icon icon-user">
