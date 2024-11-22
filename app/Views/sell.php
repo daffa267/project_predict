@@ -76,6 +76,7 @@
                 <option value="bahankue">Bahan Kue</option>
                 <option value="alatmandi">Alat Mandi</option>
             </select>
+
         </div>
         <script>
             document.addEventListener('DOMContentLoaded', function() {
@@ -105,6 +106,7 @@
                             const labels = jsonData
                                 .map(row => row[0])
                                 .filter(week => week && week.trim() !== "");
+
                             const penjualan = jsonData
                                 .map(row => row[1])
                                 .filter((_, index) => jsonData[index][0] && jsonData[index][0].trim() !== "");
@@ -129,7 +131,6 @@
                                 label: 'Penjualan',
                                 data: data,
                                 backgroundColor: 'rgba(54, 162, 235, 0.5)',
-                                borderColor: 'rgba(54, 162, 235, 1)',
                                 borderWidth: 1
                             }]
                         },

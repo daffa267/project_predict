@@ -19,11 +19,18 @@ body {
     transform: translateY(50%);
 }
 
+.login-container svg{
+    vertical-align: middle;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
 .login-container h2 {
     margin-bottom: 20px;
     font-size: 18px;
     color: #fff;
-    background-color: #4682B4;
+    background-color: #2289dd;
     padding: 10px;
     border-radius: 5px 5px 0 0;
 }
@@ -39,14 +46,14 @@ body {
 
 .login-container input[type="submit"] {
     width: 100%;
-    background-color: #4682B4;
+    background-color: #2289dd;
     color: #fff;
     cursor: pointer;
     border: none;
 }
 
 .login-container input[type="submit"]:hover {
-    background-color: #315f86;
+    background-color: #418bcb;
 }
 
 .login-container .icon {
@@ -191,9 +198,25 @@ body {
 }
 
 .cards span a {
+    margin-top: 10px;
+    font-size: 20px;
     color: inherit;
     text-decoration: none;
 }
+
+.cards .card span {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .cards .card span svg {
+    opacity: 0.5;
+    width: 35px;
+    height: 35px;
+  }
+  
 
 .red {
     background-color: #00c427;
@@ -203,12 +226,38 @@ body {
     color: #fff;
 }
 
+
 .purple {
     background-color: #3f88fd;
 }
 
 .purple svg{
     color: #fff;
+}
+
+#filterBarang {
+    position: absolute;
+    top: 30%;
+    right: 2%; 
+    margin-top: 50vh;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    z-index: 10; 
+}
+
+
+
+#filterBarang:hover {
+    background-color: #dddddd;
+}
+
+.chart-container {
+    position: relative; 
 }
 
 @media (max-width: 768px) {
